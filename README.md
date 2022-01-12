@@ -16,7 +16,7 @@ A Colorado Board of Elections employee has given you thje following tasks to com
 - Data Source: election_results.csv
 - Software: Python 3.10.1, Visual Studio Code 1.63.2
 
-## Summary
+## Results of the Election Audit
 The analysis of the election show that:
 - There were 369,711 votes cast in the election.
 - The voter turnout per county:
@@ -36,6 +36,5 @@ The analysis of the election show that:
 - The winner of the election was:
   - Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
 
-## Challenge Overview
-
 ## Challenge Summary
+  With the code that we have written, we are able to take and expand this to any other election with some modifications. If we had a state-wide election that has multiple issues on the ballot, we would need to modify our script to look at the different columns and keep track of each of the issues being voted on. If we had a multi state election, we can expand our script to not only track the number of votes per counties, but also track the number of votes for each state. In short, for whatever election that we have to track, we can modify this script to report and analyze the results.
